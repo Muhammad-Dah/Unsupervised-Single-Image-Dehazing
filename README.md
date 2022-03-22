@@ -15,7 +15,8 @@ This section will consists of a research based on [Single Image Haze Removal Usi
 ### Estimating the Atmospheric Light
 We have been assuming that the atmospheric light is known. In the previous works, the color of the most haze-opaque region is used as initial guess. However, little attention has been paid to the detection of the “most haze-opaque” region. The brightest pixels in the hazy image are considered to be the most haze-opaque. This is true only when the weather is overcast and the sunlight can be ignored. In this case, the atmospheric light is the only illumination source of the scene.
 
-![image](https://user-images.githubusercontent.com/37774604/159529215-0c31f5f9-0b69-4265-a406-400648844bf1.png)
+![image](https://user-images.githubusercontent.com/37774604/159529215-0c31f5f9-0b69-4265-a406-400648844bf1.png | )
+
 Estimating the atmospheric light. (a) Input image. (b) Dark channel and the most haze-opaque region. (c) The patch from where our method automatically obtains the atmospheric light. (d), (e) Two patches that contain pixels brighter than the atmospheric light.
 
 ### Results:
