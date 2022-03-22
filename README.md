@@ -1,4 +1,4 @@
-# Unsupervised Single Image Dehazing using Dark Channel Prior LossDeep-Energy: Unsupervised Training of Deep Neural Networks
+# Unsupervised Single Image Dehazing using Dark Channel Prior Loss
 
 This is a TensorFlow implementation of paper:
 
