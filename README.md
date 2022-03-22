@@ -7,6 +7,18 @@ Based on : [repository](https://github.com/AlonaGolts/Deep_Energy)
 Abstract: Single image dehazing is a critical stage in many modern-day autonomous vision applications. Early prior-based methods often involved a time-consuming minimization of a hand-crafted energy function. Recent learning-based approaches utilize the representational power of deep neural networks (DNNs) to learn the underlying transformation between hazy and clear images. Due to inherent limitations in collecting matching clear and hazy images, these methods resort to training on synthetic data; constructed from indoor images and corresponding depth information. This may result in a possible domain shift when treating outdoor scenes. We propose a completely unsupervised method of training via minimization of the well-known, Dark Channel Prior (DCP) energy function. Instead of feeding the network with synthetic data, we solely use real-world outdoor images and tune the network's parameters by directly minimizing the DCP. Although our "Deep DCP" technique can be regarded as a fast approximator of DCP, it actually improves its results significantly. This suggests an additional regularization obtained via the network and learning process. Experiments show that our method performs on par with large-scale
 supervised methods.
 
+## Our Contribution
+This section will consists of a research based on [Single Image Haze Removal Using Dark Channel Prior](http://mmlab.ie.cuhk.edu.hk/archive/2011/Haze.pdf) paper.
+
+### Estimating the Atmospheric Light
+We have been assuming that the atmospheric light A is known. In this section, we propose a method to estimate A. In the previous works, the color of the most haze-opaque region is used as A or as A’s initial guess. However, little attention has been paid to the detection of the “most haze-opaque” region.
+
+### Results:
+![image](https://user-images.githubusercontent.com/37774604/159527870-b7cd1c4f-37e8-430c-a050-2d7bd6b75fb5.png)
+![image](https://user-images.githubusercontent.com/37774604/159528059-9c107707-a5cd-4fdc-bd14-5a899d6929f1.png)
+![image](https://user-images.githubusercontent.com/37774604/159528119-98cef877-eb9f-4ddd-afd8-5f96dea6f6d5.png)
+
+
 ## Getting Started
 
 This repository contains: 
