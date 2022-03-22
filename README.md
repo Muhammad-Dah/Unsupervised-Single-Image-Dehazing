@@ -1,4 +1,4 @@
-# Unsupervised Single Image Dehazing using Dark Channel Prior Loss
+## Unsupervised Single Image Dehazing using Dark Channel Prior Loss
 
 This is a TensorFlow implementation of paper:
 
