@@ -23,7 +23,7 @@ Estimating the atmospheric light. (a) Input image. (b) Dark channel and the most
 We tried to Estimate the Atmospheric Light. For this we downloaded (partially) relevant pictures of ImageNet, cleaned it up a bit and ran the best network of the article on it. On figure below one can find comparison of pictures in terms of PSNR. In middle is the result of the paper model and in the right our improvement. We can see that the PSNR value increases.
 
 ![image](https://user-images.githubusercontent.com/37774604/159527870-b7cd1c4f-37e8-430c-a050-2d7bd6b75fb5.png)
-![image](https://user-images.githubusercontent.com/37774604/159528059-9c107707-a5cd-4fdc-bd14-5a899d6929f1.png)
+![image](https://user-images.githubusercontent.com/37774604/161382362-eb380331-ae2e-426b-824a-98cb0c58bf7c.png)
 ![image](https://user-images.githubusercontent.com/37774604/159528119-98cef877-eb9f-4ddd-afd8-5f96dea6f6d5.png)
 
 ## Getting Started
